@@ -3,6 +3,7 @@ package com.maxwell;
 import java.io.*;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.IOException;
 
@@ -56,13 +57,26 @@ public class Main {
 
                 //    double[] myList = new double[10];
 
-                double [] myList = {439.65, 40.00, 525.99, 139.65, 89.94, 189.94, 29.94, 19.94, 69.94, 49.94};
+                double[] myList = {439.65, 40.00, 525.99, 139.65, 89.94, 189.94, 29.94, 19.94, 69.94, 49.94};
 
-                System.out.println(myList);
+                ArrayList<Integer> result = new ArrayList<>();
 
-            //    fileScanner.close();
+                try (Scanner s = new Scanner(new FileReader("Data.txt"))) {
+                    while (s.hasNext()) {
+                        result.add(s.nextInt());
+                    }
+                    return result;
+                }
 
+                /*for (double element : myList) {
+                  System.out.println(element);
+
+*/
+                    //    fileScanner.close();
+
+                }
             }
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
