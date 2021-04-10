@@ -1,0 +1,40 @@
+Product Name: Television
+Product Cost: 439.65
+Product Current Price: 571.545
+
+Product Name: Radio
+Product Cost: 40.0
+Product Current Price: 52.0
+
+Product Name: Computer
+Product Cost: 525.99
+Product Current Price: 683.787
+
+Product Name: Headphones
+Product Cost: 139.65
+Product Current Price: 181.54500000000002
+
+Product Name: Printer
+Product Cost: 89.94
+Product Current Price: 116.922
+
+Product Name: Monitor
+Product Cost: 189.94
+Product Current Price: 246.922
+
+Product Name: Keyboard
+Product Cost: 29.94
+Product Current Price: 38.922000000000004
+
+Product Name: Mouse
+Product Cost: 19.94
+Product Current Price: 25.922000000000004
+
+Product Name: Router
+Product Cost: 69.94
+Product Current Price: 90.922
+
+Product Name: Speakers
+Product Cost: 49.94
+Product Current Price: 64.922
+
