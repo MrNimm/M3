@@ -55,7 +55,7 @@ public class Main {
                 double markupCost;
 
 
-                //    double[] myList = new double[10];
+                //  double[] myList = new double[10];
 
                 double[] myList = {439.65, 40.00, 525.99, 139.65, 89.94, 189.94, 29.94, 19.94, 69.94, 49.94};
 
